@@ -44,7 +44,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
                                 <Link href="/index1">
-                                    <img src="assets/img/logo/header-logo1.png" alt="" />
+                                    <img src="assets/img/logo/logo-atlas-it2-m.png" alt="" />
                                 </Link>
                             </div>
                             <div className="mobile-nav-icon" onClick={handleMobileMenu}>

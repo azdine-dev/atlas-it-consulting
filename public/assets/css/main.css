@@ -3566,7 +3566,7 @@ body.body {
     line-height: 18px; /* 100% */
     text-transform: uppercase;
     display: inline-block;
-    background-color: #2a9134;
+    background-color: #2c6b32;
     border-radius: 8px;
     padding: 18px 22px;
     transition: all 0.4s;
@@ -20558,6 +20558,20 @@ li.has-dropdown1 span {
     font-weight: var(--f-fw-blod);
     line-height: var(--f-fs-font-fs16);
 }
+
+.company-description {
+       --container-widget-width: 87.491%;
+    --container-widget-flex-grow: 0;
+    z-index: 1;
+    text-align: justify;
+    font-family: Poppins, Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #86849e;
+    padding-top: 20px;
+    
+}
+
 
 /*
 ::::::::::::::::::::::::::

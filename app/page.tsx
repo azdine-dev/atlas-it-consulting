@@ -14,7 +14,7 @@ import Section12 from "@/components/sections/home-9/Section12";
 export default function Home() {
     return (
         <>
-            <Layout headerStyle={9} footerStyle={9}  mainMenuStyle="one-page">
+            <Layout headerStyle={6} footerStyle={6}  mainMenuStyle="one-page">
                 <Section1 />
                 <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset={0} className="scrollspy-example" tabIndex={0}>
                     <Section2 />

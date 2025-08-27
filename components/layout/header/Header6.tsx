@@ -1,32 +1,32 @@
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 import MainMenu from "../MainMenu";
-import MainMenuOnePage6 from "../MainMenuOnePage6";
+import MainMenuOnePage from "../MainMenuOnePage";
 
 export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMenuStyle }: any) {
     return (
         <>
             <header>
-                <div className={`header-area header-area6 header-area-all d-none d-lg-block ${scroll ? "sticky" : ""} `} id="header">
+                <div className={`header-area header-area9 header-area-all d-none d-lg-block ${scroll ? "sticky" : ""} `} id="header">
                     <div className="container">
                         <div className="row header-bg">
                             <div className="col-12">
                                 <div className="header-elements">
                                     <div className="site-logo">
                                         <Link href="/">
-                                            <img src="assets/img/logo/header-logo6.png" alt="" />
+                                            <img src="assets/img/logo/logo-atlas-it2.png" alt="" />
                                         </Link>
                                     </div>
                                     <div className="main-menu-ex main-menu-ex1">
                                         {!mainMenuStyle && <MainMenu />}
-                                        {mainMenuStyle == "one-page" ? <MainMenuOnePage6 /> : null}
+                                        {mainMenuStyle == "one-page" ? <MainMenuOnePage /> : null}
                                     </div>
                                     <div className="header2-buttons">
                                         <div className="button">
-                                            <Link className="theme-btn11" href="/contact">
-                                                Get A Quote
+                                            <Link className="theme-btn15" href="/contact">
+                                                Contacter un expert &nbsp;
                                                 <span>
-                                                    <i className="fa-solid fa-arrow-right" />
+                                                    <i className="fa-solid fa-arrow-right"></i>
                                                 </span>
                                             </Link>
                                         </div>
@@ -44,7 +44,7 @@ export default function Header({ scroll, isMobileMenu, handleMobileMenu, mainMen
                         <div className="mobile-header-elements">
                             <div className="mobile-logo">
                                 <Link href="/index1">
-                                    <img src="assets/img/logo/header-logo1.png" alt="" />
+                                    <img src="assets/img/logo/logo-atlas-it2-m.png" alt="" />
                                 </Link>
                             </div>
                             <div className="mobile-nav-icon" onClick={handleMobileMenu}>

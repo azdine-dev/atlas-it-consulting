@@ -45,7 +45,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
             <div className={`mobile-sidebar d-block d-lg-none ${isMobileMenu ? "mobile-menu-active" : ""}`}>
                 <div className="logo-m">
                     <Link href="/">
-                        <img src="assets/img/logo/header-logo1.png" alt="" />
+                        <img src="assets/img/logo/logo-atlas-it2-m.png" alt="" />
                     </Link>
                 </div>
                 <div className="menu-close" onClick={handleMobileMenu}>
@@ -53,7 +53,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                 </div>
                 <div className="mobile-nav">
                     <ul>
-                        <li className="has-dropdown">
+                        {/* <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
                                 <Link href="#" className={isHashNav("#") ? "hash-nav" : ""} onClick={(e) => e.preventDefault()}>
                                     Home
@@ -148,14 +148,17 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     </ul>
                                 </li>
                             </ul>
+                        </li> */}
+                        <li>
+                            <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <Link href="/about">About Us</Link>
+                            <Link href="/about">Qui Sommes Nous ?</Link>
                         </li>
-                        <li className="has-dropdown">
+                        {/* <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
                                 <Link href="#" onClick={(e) => e.preventDefault()}>
-                                    Service
+                                    Nos Services
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["service"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("service")}>
                                     <em />
@@ -163,7 +166,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             </div>
                             <ul className="sub-menu" style={{ display: openSubMenus["service"] ? "block" : "none" }}>
                                 <li>
-                                    <Link href="/service">Service</Link>
+                                    <Link href="/service">Nos Services</Link>
                                 </li>
                                 <li className="has-dropdown has-dropdown1">
                                     <div className="menu-item-with-toggle">
@@ -187,11 +190,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
-                                <Link href="#" onClick={(e) => e.preventDefault()}>
-                                    Pages
+                                <Link href="/service" onClick={(e) => e.preventDefault()}>
+                                    Nos Services
                                 </Link>
                                 <span className={`submenu-button${openSubMenus["pages"] ? " submenu-opened" : ""}`} onClick={() => handleToggleSubMenu("pages")}>
                                     <em />
@@ -199,20 +202,20 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                             </div>
                             <ul className="sub-menu" style={{ display: openSubMenus["pages"] ? "block" : "none" }}>
                                 <li>
-                                    <Link href="/contact">Contact</Link>
+                                    <Link href="/service">Formation des Cadres,Ingénieurs et Techniciens </Link>
                                 </li>
                                 <li>
-                                    <Link href="/team">Team</Link>
+                                    <Link href="/service">Instalation Réseau, Telecom, Voip et Firewall</Link>
                                 </li>
                                 <li>
-                                    <Link href="/testimonial">Testimonial</Link>
+                                    <Link href="/service">Cyber Sécurité</Link>
                                 </li>
                                 <li>
-                                    <Link href="/error">404</Link>
+                                    <Link href="/error">AI</Link>
                                 </li>
                             </ul>
                         </li>
-                        <li className="has-dropdown">
+                        {/* <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
                                 <Link href="#" onClick={(e) => e.preventDefault()}>
                                     Blog
@@ -235,8 +238,14 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     <Link href="/blog-details">Blog Details</Link>
                                 </li>
                             </ul>
+                        </li> */}
+                        <li>
+                            <Link href="/project">Nos Realisations</Link>
                         </li>
-                        <li className="has-dropdown">
+                        <li>
+                            <Link href="/testimonial">Avis Client</Link>
+                        </li>
+                        {/* <li className="has-dropdown">
                             <div className="menu-item-with-toggle">
                                 <Link href="#" onClick={(e) => e.preventDefault()}>
                                     Project
@@ -259,24 +268,24 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                     <Link href="/project-details">Project Details</Link>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
                     </ul>
                     <div className="mobile-button">
-                        <Link className="theme-btn1" href="service">
-                            Learn More
+                        <Link className="theme-btn15" href="/contact">
+                            Savoir plus
                             <span>
                                 <i className="fa-solid fa-arrow-right" />
                             </span>
                         </Link>
                     </div>
                     <div className="single-footer-items">
-                        <h3>Contact Us</h3>
+                        <h3>Contacter  Nous</h3>
                         <div className="contact-box">
                             <div className="icon">
                                 <img src="assets/img/icons/footer-icon1.png" alt="" />
                             </div>
                             <div className="pera">
-                                <Link href="tel:+880123456789">+880 123 456 789</Link>
+                                <Link href="tel:+880123456789">+212603328567</Link>
                             </div>
                         </div>
                         <div className="contact-box">
@@ -292,14 +301,14 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                                 <img src="assets/img/icons/footer-icon3.png" alt="" />
                             </div>
                             <div className="pera">
-                                <Link href="tel:+880123456789">
-                                    8502 Preston Rd. <br /> Inglewoo Maine 98380
+                                <Link href="tel:+212603328567">
+                                    8502 Rabat <br />Maroc
                                 </Link>
                             </div>
                         </div>
                     </div>
                     <div className="contact-infos">
-                        <h3>Our Location</h3>
+                        <h3>Retrouver Nous sur :</h3>
                         <ul className="social-icon">
                             <li>
                                 <Link href="#">
