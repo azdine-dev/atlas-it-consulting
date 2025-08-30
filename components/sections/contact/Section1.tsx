@@ -16,8 +16,8 @@ export default function Section1() {
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        // Handle form submission here
         console.log('Form submitted:', formData);
+        alert("Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.");
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -33,12 +33,18 @@ export default function Section1() {
         <div className="contact-page sp">
             <div className="container">
                 <div className="row align-items-center">
+                    
+                    {/* ---- Infos de contact ---- */}
                     <div className="col-lg-6">
-                        <div className="heading1">
-                            <span className="span">Contact Us</span>
-                            <h2>Get in Touch Let's Start the Conversation</h2>
+                        <div className="heading6">
+                            <span className="span">Contactez-Nous</span>
+                            <h2>👉 Contactez-nous – Donnons Vie à vos Projets</h2>
                             <div className="space16"></div>
-                            <p>We're here to help you find the right staffing solutions for your needs. Whether you're a company looking to hire top talent or a candidate seeking your next career opportunity,</p>
+                            <p>
+                                Nous serions ravis d’échanger avec vous !  
+                                Que ce soit pour discuter de vos projets digitaux, demander un devis, 
+                                ou simplement en savoir plus sur nos services IT, notre équipe est à votre écoute.
+                            </p>
                         </div>
 
                         <div className="contact-page-box">
@@ -54,8 +60,10 @@ export default function Section1() {
                                             />
                                         </div>
                                         <div className="heading1">
-                                            <p>Gives us a Call</p>
-                                            <h4><Link href="tel:123-456-7890">123-456-7890</Link></h4>
+                                            <p>Appelez-nous</p>
+                                            <h4>
+                                                <Link href="tel:+212600000000">+212 6 00 00 00 00</Link>
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -71,8 +79,10 @@ export default function Section1() {
                                             />
                                         </div>
                                         <div className="heading1">
-                                            <p>Send me Mail</p>
-                                            <h4><Link href="mailto:Recrute@hotmail.com">Recrute@hotmail.com</Link></h4>
+                                            <p>Email</p>
+                                            <h4>
+                                                <Link href="mailto:contact@atlasit.ma">contact@atlasit.ma</Link>
+                                            </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -80,12 +90,15 @@ export default function Section1() {
                         </div>
                     </div>
 
+                    {/* ---- Formulaire ---- */}
                     <div className="col-lg-6">
                         <div className="contact1-form">
                             <div className="heading1">
-                                <h3>Send us a Message</h3>
+                                <h3>Envoyez-nous un Message</h3>
                                 <div className="space16"></div>
-                                <p>Feel free to reach out to us with any questions, inquiries, or staffing requirements you may have. Our experienced</p>
+                                <p>
+                                    Remplissez le formulaire ci-dessous et nous reviendrons vers vous rapidement.
+                                </p>
                             </div>
                             <div className="space10"></div>
 
@@ -96,7 +109,7 @@ export default function Section1() {
                                             <input
                                                 type="text"
                                                 name="firstName"
-                                                placeholder="First Name"
+                                                placeholder="Prénom"
                                                 value={formData.firstName}
                                                 onChange={handleChange}
                                             />
@@ -108,7 +121,7 @@ export default function Section1() {
                                             <input
                                                 type="text"
                                                 name="lastName"
-                                                placeholder="Last Name"
+                                                placeholder="Nom"
                                                 value={formData.lastName}
                                                 onChange={handleChange}
                                             />
@@ -132,7 +145,7 @@ export default function Section1() {
                                             <input
                                                 type="tel"
                                                 name="phone"
-                                                placeholder="Phone"
+                                                placeholder="Téléphone"
                                                 value={formData.phone}
                                                 onChange={handleChange}
                                             />
@@ -144,7 +157,7 @@ export default function Section1() {
                                             <input
                                                 type="text"
                                                 name="subject"
-                                                placeholder="Subject"
+                                                placeholder="Sujet"
                                                 value={formData.subject}
                                                 onChange={handleChange}
                                             />
@@ -156,7 +169,7 @@ export default function Section1() {
                                             <textarea
                                                 rows={4}
                                                 name="message"
-                                                placeholder="Message"
+                                                placeholder="Votre message"
                                                 value={formData.message}
                                                 onChange={handleChange}
                                             ></textarea>
@@ -165,8 +178,8 @@ export default function Section1() {
 
                                     <div className="col-md-12">
                                         <div className="button">
-                                            <button type="submit" className="theme-btn1">
-                                                Submit Now <span><i className="fa-solid fa-arrow-right"></i></span>
+                                            <button type="submit" className="theme-btn15">
+                                                Envoyer <span><i className="fa-solid fa-arrow-right"></i></span>
                                             </button>
                                         </div>
                                     </div>
@@ -174,6 +187,7 @@ export default function Section1() {
                             </form>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

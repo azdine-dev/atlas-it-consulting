@@ -5,8 +5,8 @@ import Section2 from "@/components/sections/contact/Section2";
 export default function Home() {
     return (
         <>
-            <Layout>
-                <SectionHeader title="Contact Us" group_page="" current_page="Contact Us" display="d-none" />
+            <Layout headerStyle={6} footerStyle={6}  mainMenuStyle="one-page">
+                <SectionHeader title="Contacter Nous" group_page="" current_page="Nous Contacter" display="d-none" />
                 <Section1 />
                 <Section2 />
             </Layout>
