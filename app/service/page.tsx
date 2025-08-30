@@ -6,10 +6,10 @@ import Section3 from "@/components/sections/about/Section3";
 export default function Home() {
     return (
         <>
-            <Layout>
-                <SectionHeader title="Our Service" group_page="" current_page="Our Service" display="d-none" />
+            <Layout  headerStyle={6} footerStyle={6}  mainMenuStyle="one-page">
+                <SectionHeader title="Nos Services" group_page="" current_page="Nos Services" display="d-none" />
                 <Section1 />
-                <Section3 />
+                {/* <Section3 /> */}
             </Layout>
         </>
     );

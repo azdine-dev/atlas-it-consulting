@@ -59,12 +59,12 @@ export default function MainMenu() {
                 </Link> */}
                 </li>
                 <li>
-                    <Link  style={{ fontWeight: "bold" }} className="list-group-item list-group-item-action" href="#case">
+                    <Link  style={{ fontWeight: "bold" }} className="list-group-item list-group-item-action" href="/project">
                        Nos Réalisations
                     </Link>
                 </li>
                 <li>
-                    <Link  style={{ fontWeight: "bold" }} className="list-group-item list-group-item-action" href="#tes">
+                    <Link  style={{ fontWeight: "bold" }} className="list-group-item list-group-item-action" href="/testimonial">
                         Avis Clients
                     </Link>
                 </li>

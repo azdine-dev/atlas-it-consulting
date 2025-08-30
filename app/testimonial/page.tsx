@@ -5,10 +5,10 @@ import Section2 from "@/components/sections/about/Section3";
 export default function Home() {
     return (
         <>
-            <Layout>
-                <SectionHeader title="Testimonials" group_page="" current_page="Testimonials" display="d-none" />
+            <Layout headerStyle={6} footerStyle={6}  mainMenuStyle="one-page">
+                <SectionHeader title="Avis Clients" group_page="" current_page="Témoiagnages" display="d-none" />
                 <Section1 />
-                <Section2 />
+                {/* <Section2 /> */}
             </Layout>
         </>
     );
