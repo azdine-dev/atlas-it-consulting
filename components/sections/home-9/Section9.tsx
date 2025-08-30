@@ -8,11 +8,11 @@ export default function Section9() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 m-auto text-center">
-                            <div className="heading9">
+                            <div className="heading6">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    <img src="assets/img/icons/span9.png" alt="" /> team members
+                                   Notre Équipe
                                 </span>
-                                <h2 className="text-anime-style-3">Introducing Our Team of Specialists</h2>
+                                <h2 className="text-anime-style-3">Présentation de notre équipe de spécialistes</h2>
                             </div>
                         </div>
                     </div>

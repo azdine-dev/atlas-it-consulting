@@ -272,7 +272,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: MobileMen
                     </ul>
                     <div className="mobile-button">
                         <Link className="theme-btn15" href="/contact">
-                            Savoir plus
+                            En Savoir plus
                             <span>
                                 <i className="fa-solid fa-arrow-right" />
                             </span>

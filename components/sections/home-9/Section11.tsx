@@ -8,11 +8,11 @@ export default function Section11() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 m-auto text-center">
-                            <div className="heading9">
+                            <div className="heading6">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    <img src="assets/img/icons/span9.png" alt="" /> Contact Us
+                                   Nous Contacter
                                 </span>
-                                <h2 className="text-anime-style-3">Let's Start The Conversation</h2>
+                                <h2 className="text-anime-style-3">Faites-vous rappeler par notre agence web au Maroc</h2>
                             </div>
                         </div>
                     </div>
@@ -20,43 +20,42 @@ export default function Section11() {
                         <div className="row align-items-center">
                             <div className="col-lg-7">
                                 <div className="form-area">
-                                    <h3>Send Us A Message</h3>
+                                    <h3>Envoyer Nous un message</h3>
                                     <div className="space16" />
-                                    <p>Our response time is within 30 minutes during business hours</p>
                                     <form action="#">
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="text" placeholder="First Name" />
+                                                    <input type="text" placeholder="Prénom" />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="text" placeholder="Last Name" />
+                                                    <input type="text" placeholder="Nom" />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="number" placeholder="Phone Number" />
+                                                    <input type="number" placeholder="Teléphone" />
                                                 </div>
                                             </div>
                                             <div className="col-md-6">
                                                 <div className="single-input">
-                                                    <input type="email" placeholder="Email Address" />
+                                                    <input type="email" placeholder="Email" />
                                                 </div>
                                             </div>
-                                            <div className="col-md-12">
+                                            {/* <div className="col-md-12">
                                                 <div className="single-input">
                                                     <input type="text" placeholder="Service Type" />
                                                 </div>
-                                            </div>
+                                            </div> */}
                                             <div className="col-md-12">
                                                 <div className="single-input">
                                                     <textarea rows={4} placeholder="Message" defaultValue={""} />
                                                 </div>
                                                 <div className="button-area">
                                                     <button className="theme-btn15" type="submit">
-                                                        subscribe
+                                                        Envoyer
                                                         <span>
                                                             <i className="fa-solid fa-arrow-right" />
                                                         </span>
@@ -74,9 +73,9 @@ export default function Section11() {
                                             <img src="assets/img/icons/contact9-icon1.svg" alt="" />
                                         </div>
                                         <div className="heading">
-                                            <h5>Our Location</h5>
-                                            <Link href="#">
-                                                8708 Technology Forest Pl Suite <br /> 125 -G, The Woodlands, TX 77381
+                                            <h5>Location</h5>
+                                            <Link href="">
+                                               Hay Riad <br /> Rabat
                                             </Link>
                                         </div>
                                     </div>
@@ -87,8 +86,8 @@ export default function Section11() {
                                             <img src="assets/img/icons/contact9-icon2.svg" alt="" />
                                         </div>
                                         <div className="heading">
-                                            <h5>Call Or Text</h5>
-                                            <Link href="tel:123-456-7890">123-456-7890</Link>
+                                            <h5>Nous Appeler</h5>
+                                            <Link href="tel:+212603328567">+212603328567</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +97,7 @@ export default function Section11() {
                                             <img src="assets/img/icons/contact9-icon3.svg" alt="" />
                                         </div>
                                         <div className="heading">
-                                            <h5>Email Us Today</h5>
+                                            <h5>Envoyer Nous un Email</h5>
                                             <Link href="mailto:info@taxvice.com">info@taxvice.com</Link>
                                         </div>
                                     </div>

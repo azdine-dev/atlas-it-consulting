@@ -47,11 +47,12 @@ export default function Section7() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <div className="heading9">
-                                <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
-                                    <img src="assets/img/icons/span9.png" alt="" /> case studies
-                                </span>
-                                <h2 className="text-anime-style-3">Our Success All Project</h2>
+
+                            <div className="heading6">
+                                {/* <span className="span" data-aos="zoom-in-left" data-aos-duration={700}>
+                                     Nos Réalisations
+                                </span> */}
+                                <h2 className="text-anime-style-3">Nos Réalisations</h2>
                             </div>
                         </div>
                         <div className="col-lg-6">
