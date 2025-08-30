@@ -10,15 +10,15 @@ import Section7 from "@/components/sections/about/Section3";
 export default function Home() {
     return (
         <>
-            <Layout>
-                <SectionHeader title="About Us" group_page="" current_page="About Us" display="d-none" />
+            <Layout  headerStyle={6} footerStyle={6}  mainMenuStyle="one-page">
+                <SectionHeader title="A Propos de Nous" group_page="" current_page="A propos de Nous" display="d-none" />
                 <Section1 />
-                <Section2 />
-                <Section3 />
-                <Section4 />
+                {/* <Section2 /> */}
+                {/* <Section3 /> */}
+                {/* <Section4 /> */}
                 <Section5 classList="about-page-testimonial" />
                 <Section6 classList="about-page-team" />
-                <Section7 />
+                {/* <Section7 /> */}
             </Layout>
         </>
     );

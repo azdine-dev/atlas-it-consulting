@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             {/*===== FOOTER AREA START =======*/}
-            <div className="footer6 _relative">
+            <div className="footer1 _relative">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-12">
@@ -110,7 +110,7 @@ export default function Footer() {
                                         <img src="assets/img/icons/footer6-icon3.svg" alt="" />
                                     </div>
                                     <div className="pera">
-                                        <Link href="mailto:staffingagency@com">atlas-it-consulting@gmail.com</Link>
+                                        <Link href="mailto:atlas-it-consulting@gmail.com@com">atlas-it-consulting@gmail.com</Link>
                                     </div>
                                 </div>
                                 <div className="contact-box">
