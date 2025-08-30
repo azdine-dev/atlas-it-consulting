@@ -10,7 +10,7 @@ export default function MainMenu() {
                     </Link>
                 </li>
                 <li>
-                  <Link  style={{ fontWeight: "bold" }} href="#service" className="main1">
+                  <Link  style={{ fontWeight: "bold" }} href="/service" className="main1">
                     No services <i className="fa-solid fa-angle-down" />
                   </Link>
                 <ul>

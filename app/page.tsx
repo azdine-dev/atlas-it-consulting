@@ -6,9 +6,11 @@ import Section4 from "@/components/sections/home-9/Section4";
 import Section5 from "@/components/sections/home-9/Section5";
 import Section6 from "@/components/sections/home-9/Section6";
 import Section7 from "@/components/sections/home-9/Section7";
-import Section8 from "@/components/sections/home-9/Section8";
-import Section9 from "@/components/sections/home-9/Section9";
-import Section10 from "@/components/sections/home-9/Section10";
+// import Section8 from "@/components/sections/home-9/Section8";
+import Section8 from "@/components/sections/home/Section8";
+
+// import Section9 from "@/components/sections/home-9/Section9";
+import Section10 from "@/components/sections/home/Section10";
 import Section11 from "@/components/sections/home-9/Section11";
 import Section12 from "@/components/sections/home-9/Section12";
 import Section93 from "@/components/sections/home-9/Section93";
@@ -26,7 +28,7 @@ export default function Home() {
                     {/* <Section6 /> */}
                     <Section7 />
                     <Section8 />
-                    <Section9 />
+                    <Section10 />
                     {/* <Section10 /> */}
                     <Section11 />
                 </div>

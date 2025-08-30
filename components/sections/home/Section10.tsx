@@ -8,7 +8,7 @@ export default function Section10({ classList }: any) {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">
-                            <div className="heading1">
+                            <div className="heading6">
                                 <span className="span" data-aos="zoom-in-left" data-aos-duration={800}>
                                     Notre Équipe
                                 </span>
